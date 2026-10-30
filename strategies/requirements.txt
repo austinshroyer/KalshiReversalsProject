@@ -1,0 +1,6 @@
+requests>=2.31
+cryptography>=42.0     # only needed if you set KALSHI_API_KEY_ID / KALSHI_PRIVATE_KEY_PATH
+pandas>=2.0             # export_to_excel.py, features.py, and the predictive/ scripts
+openpyxl>=3.1           # only needed for export_to_excel.py
+numpy>=1.26             # predictive/ scripts
+scikit-learn>=1.4       # count_model.py / timing_model.py
